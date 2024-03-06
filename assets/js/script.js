@@ -34,7 +34,7 @@ $(document).ready(function(){
 document.addEventListener('DOMContentLoaded', function(){
   // Initialize Typed.js
   var options = {
-      strings: [ "Front End Developer..","Software Developer..","Designer.."],
+      strings: [ "Front End Web Developer..","Software Developer..","Graphic Designer.."],
       typeSpeed: 80, // typing speed in milliseconds
       backSpeed: 85, // backspacing speed in milliseconds
       loop: true // loop the animation
