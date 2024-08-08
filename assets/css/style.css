@@ -419,14 +419,13 @@ body {
 }
 
 .proj-box {
-  height: 350px;
+  height: 220px;
   width: 100%;
   cursor: pointer;
   position: relative;
   /* overflow: hidden; */
-  border-radius: 50px;
   margin-top: 30px;
-  background: rgba(0, 0, 0, 0.9) !important;
+  /* background: rgba(0, 0, 0, 0.9) !important; */
 }
 
 .proj-box .overlay {
@@ -437,7 +436,7 @@ body {
   border: 2px solid var(--yellow-color);
   position: absolute;
   content: "";
-  border-radius: 50px;
+  border-radius: 20px;
   opacity: 0;
   transition: 0.8s all ease;
 }
@@ -449,8 +448,8 @@ body {
 .proj-box img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  border-radius: 50px;
+  object-fit:cover ;
+  border-radius: 20px;
   box-shadow: rgba(82, 82, 82, 0.2) 0px 2px 8px;
 }
 
